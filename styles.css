@@ -13,3 +13,33 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+.nav {
+    display: flex;
+    flex-direction: row;
+    background-color: #a1a1a1c6;
+    ul {
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        width: 100%;
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        li {
+            padding: 1%;
+            a {
+                text-decoration: none;
+                color: black;
+            }
+        }
+        
+    }
+}
+
+#horta-panorama {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
